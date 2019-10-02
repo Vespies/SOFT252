@@ -9,14 +9,18 @@ package javaapplication1;
  *
  * @author swmichalak
  */
-public class JavaApplication1 {
+public class MyWeight {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("The date today is " + 02);
-        System.exit(0);
+        int kg=10;
+        double pounds=0;
+        
+        pounds= kg *2.2;
+        System.out.println(kg + " kilograms is " + pounds +" in pounds");
+        
     }
     
 }

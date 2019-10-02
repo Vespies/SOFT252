@@ -9,14 +9,21 @@ package javaapplication1;
  *
  * @author swmichalak
  */
-public class JavaApplication1 {
+public class MyHeight {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("The date today is " + 02);
-        System.exit(0);
+        int centimetres=10;
+        double feet=0;
+        double inches=0;
+        
+        inches= centimetres /2.54;
+        feet = inches /12;
+        feet = feet % 12;
+        System.out.println(centimetres + " cm is " + inches +" in inches and " +
+                feet + " in feet");
     }
     
 }
